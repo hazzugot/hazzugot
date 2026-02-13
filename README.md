@@ -24,6 +24,9 @@ Transitioning into cybersecurity with a focus on Security Operations. Building h
 | NAS Configuration (OMV, MergerFS, SnapRAID) | [Homelab Server Build](https://github.com/hazzugot/HomelabRYZEN) |
 | Docker & Container Deployment | [Homelab Server Build](https://github.com/hazzugot/HomelabRYZEN) |
 | Network Segmentation & VLANs | [Homelab Server Build](https://github.com/hazzugot/HomelabRYZEN) |
+| SIEM Deployment & Log Analysis (Splunk) | [Splunk SIEM Lab](https://github.com/hazzugot/HomelabRYZEN/blob/main/Labs/Lab%201%20SIEM%20DEPLOYMENT.md) |
+| Threat Detection & MITRE ATT&CK Mapping | [Splunk SIEM Lab](https://github.com/hazzugot/HomelabRYZEN/blob/main/Labs/Lab%201%20SIEM%20DEPLOYMENT.md) |
+| Incident Response & Investigation | [Splunk SIEM Lab](https://github.com/hazzugot/HomelabRYZEN/blob/main/Labs/Lab%201%20SIEM%20DEPLOYMENT.md) |
 | PowerShell Scripting & Automation | Professional Experience |
 | Incident Triage & Ticketing (ITSM) | Professional Experience |
 | Network Monitoring (PRTG) | Professional Experience |
@@ -35,6 +38,13 @@ Transitioning into cybersecurity with a focus on Security Operations. Building h
     <img src="https://img.shields.io/badge/-Proxmox-E57000?&style=for-the-badge&logo=Proxmox&logoColor=white" />
     <img src="https://img.shields.io/badge/-Docker-2496ED?&style=for-the-badge&logo=Docker&logoColor=white" />
     <img src="https://img.shields.io/badge/-VMware-607078?&style=for-the-badge&logo=VMware&logoColor=white" />
+</div>
+
+### SIEM & Security
+<div>
+    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Sysmon-0078D6?&style=for-the-badge&logo=Windows&logoColor=white" />
+    <img src="https://img.shields.io/badge/-MITRE_ATT&CK-ED1C24?&style=for-the-badge&logoColor=white" />
 </div>
 
 ### Network & Monitoring
@@ -58,6 +68,7 @@ Transitioning into cybersecurity with a focus on Security Operations. Building h
 | Project | Description |
 |---------|-------------|
 | [Homelab Server Build](https://github.com/hazzugot/HomelabRYZEN) | Custom 10-inch rack server with Proxmox VE, OpenMediaVault NAS, Jellyfin media server, and network segmentation. Fully documented with hardware rationale and troubleshooting logs. |
+| [Splunk SIEM Lab](https://github.com/hazzugot/HomelabRYZEN/blob/main/Labs/Lab%201%20SIEM%20DEPLOYMENT.md) | Enterprise SIEM deployment with Splunk, Sysmon endpoint telemetry, 4 custom detection rules mapped to MITRE ATT&CK, SOC dashboard, and full attack simulation with documented incident response. |
 
 ### Planned Security Labs
 
@@ -65,7 +76,6 @@ Building toward a complete Mini SOC environment:
 
 | Project | Status | Description |
 |---------|--------|-------------|
-| SIEM Deployment | Planned | Deploy Wazuh/Splunk with Kali Linux for attack simulation and log analysis |
 | Active Directory Lab | Planned | Windows Server domain with log forwarding to SIEM, attack simulation using Atomic Red Team |
 | SOAR Automation | Planned | Integrate Wazuh with Shuffle for automated incident response playbooks |
 | EDR Integration | Planned | Deploy Lima Charlie with Tines SOAR for endpoint detection and response |
