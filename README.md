@@ -23,10 +23,11 @@ Transitioning into cybersecurity with a focus on Security Operations. Building h
 | Proxmox VE Administration | [Homelab Server Build](https://github.com/hazzugot/HomelabRYZEN) |
 | NAS Configuration (OMV, MergerFS, SnapRAID) | [Homelab Server Build](https://github.com/hazzugot/HomelabRYZEN) |
 | Docker & Container Deployment | [Homelab Server Build](https://github.com/hazzugot/HomelabRYZEN) |
-| Network Segmentation & VLANs | [Homelab Server Build](https://github.com/hazzugot/HomelabRYZEN) |
-| SIEM Deployment & Log Analysis (Splunk) | [Splunk SIEM Lab](https://github.com/hazzugot/HomelabRYZEN/blob/main/Labs/Lab%201%20SIEM%20DEPLOYMENT.md) |
-| Threat Detection & MITRE ATT&CK Mapping | [Splunk SIEM Lab](https://github.com/hazzugot/HomelabRYZEN/blob/main/Labs/Lab%201%20SIEM%20DEPLOYMENT.md) |
-| Incident Response & Investigation | [Splunk SIEM Lab](https://github.com/hazzugot/HomelabRYZEN/blob/main/Labs/Lab%201%20SIEM%20DEPLOYMENT.md) |
+| 802.1Q VLAN Segmentation | [Network Enhancement Lab](https://github.com/hazzugot/HomelabRYZEN/tree/main/Labs/00B_Network_Enhancement) |
+| Inter-VLAN Routing & iptables NAT | [Network Enhancement Lab](https://github.com/hazzugot/HomelabRYZEN/tree/main/Labs/00B_Network_Enhancement) |
+| SIEM Deployment & Log Analysis (Splunk) | [Splunk SIEM Lab](https://github.com/hazzugot/HomelabRYZEN/tree/main/Labs/01_Splunk_SIEM_Lab) |
+| Threat Detection & MITRE ATT&CK Mapping | [Splunk SIEM Lab](https://github.com/hazzugot/HomelabRYZEN/tree/main/Labs/01_Splunk_SIEM_Lab) |
+| Incident Response & Investigation | [Splunk SIEM Lab](https://github.com/hazzugot/HomelabRYZEN/tree/main/Labs/01_Splunk_SIEM_Lab) |
 | PowerShell Scripting & Automation | Professional Experience |
 | Incident Triage & Ticketing (ITSM) | Professional Experience |
 | Network Monitoring (PRTG) | Professional Experience |
@@ -67,8 +68,9 @@ Transitioning into cybersecurity with a focus on Security Operations. Building h
 
 | Project | Description |
 |---------|-------------|
-| [Homelab Server Build](https://github.com/hazzugot/HomelabRYZEN) | Custom 10-inch rack server with Proxmox VE, OpenMediaVault NAS, Jellyfin media server, and network segmentation. Fully documented with hardware rationale and troubleshooting logs. |
-| [Splunk SIEM Lab](https://github.com/hazzugot/HomelabRYZEN/blob/main/Labs/Lab%201%20SIEM%20DEPLOYMENT.md) | Enterprise SIEM deployment with Splunk, Sysmon endpoint telemetry, 4 custom detection rules mapped to MITRE ATT&CK, SOC dashboard, and full attack simulation with documented incident response. |
+| [Homelab Server Build](https://github.com/hazzugot/HomelabRYZEN) | Custom 10-inch rack server with Proxmox VE, OpenMediaVault NAS, Jellyfin media server. Fully documented with hardware rationale and troubleshooting logs. |
+| [Network Segmentation (Lab 00B)](https://github.com/hazzugot/HomelabRYZEN/tree/main/Labs/00B_Network_Enhancement) | Enterprise VLAN segmentation using Netgear GS510TLP managed switch. 802.1Q trunking, VLAN-aware bridging in Proxmox, inter-VLAN routing with iptables NAT, and VM migration across network segments. |
+| [Splunk SIEM (Lab 01)](https://github.com/hazzugot/HomelabRYZEN/tree/main/Labs/01_Splunk_SIEM_Lab) | Enterprise SIEM deployment with Splunk, Sysmon endpoint telemetry, 4 custom detection rules mapped to MITRE ATT&CK, SOC dashboard, and full attack simulation with documented incident response. |
 
 ### Planned Security Labs
 
