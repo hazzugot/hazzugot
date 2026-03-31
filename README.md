@@ -7,7 +7,7 @@ Service Desk Analyst with hands-on experience in network monitoring, PowerShell 
 
 ## Objective
 
-Transitioning into cybersecurity with a focus on Security Operations. Building hands-on experience through homelab projects involving SIEM deployment, Active Directory security, and automated incident response.
+Transitioning into cybersecurity with a focus on Security Operations. Building hands-on experience through homelab projects involving SIEM deployment, Active Directory security, virtualised network infrastructure, and automated incident response.
 
 ## Certifications
 
@@ -23,6 +23,9 @@ Transitioning into cybersecurity with a focus on Security Operations. Building h
 | Proxmox VE Administration | [Homelab Server Build](https://github.com/hazzugot/HomelabRYZEN) |
 | NAS Configuration (OMV, MergerFS, SnapRAID) | [Homelab Server Build](https://github.com/hazzugot/HomelabRYZEN) |
 | Docker & Container Deployment | [Homelab Server Build](https://github.com/hazzugot/HomelabRYZEN) |
+| Virtualised Firewall (OPNsense) | [OPNsense Firewall Lab](https://github.com/hazzugot/HomelabRYZEN/tree/main/Labs/00C_OPNsense_Firewall) |
+| PPPoE, DHCP, DNS & VLAN Management | [OPNsense Firewall Lab](https://github.com/hazzugot/HomelabRYZEN/tree/main/Labs/00C_OPNsense_Firewall) |
+| IoT Network Isolation (VLAN 40) | [OPNsense Firewall Lab](https://github.com/hazzugot/HomelabRYZEN/tree/main/Labs/00C_OPNsense_Firewall) |
 | 802.1Q VLAN Segmentation | [Network Enhancement Lab](https://github.com/hazzugot/HomelabRYZEN/tree/main/Labs/00B_Network_Enhancement) |
 | Inter-VLAN Routing & iptables NAT | [Network Enhancement Lab](https://github.com/hazzugot/HomelabRYZEN/tree/main/Labs/00B_Network_Enhancement) |
 | SIEM Deployment & Log Analysis (Splunk) | [Splunk SIEM Lab](https://github.com/hazzugot/HomelabRYZEN/tree/main/Labs/01_Splunk_SIEM_Lab) |
@@ -37,8 +40,9 @@ Transitioning into cybersecurity with a focus on Security Operations. Building h
 ### Virtualization & Infrastructure
 <div>
     <img src="https://img.shields.io/badge/-Proxmox-E57000?&style=for-the-badge&logo=Proxmox&logoColor=white" />
+    <img src="https://img.shields.io/badge/-OPNsense-D94F00?&style=for-the-badge&logo=OPNsense&logoColor=white" />
     <img src="https://img.shields.io/badge/-Docker-2496ED?&style=for-the-badge&logo=Docker&logoColor=white" />
-    <img src="https://img.shields.io/badge/-VMware-607078?&style=for-the-badge&logo=VMware&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Home_Assistant-41BDF5?&style=for-the-badge&logo=HomeAssistant&logoColor=white" />
 </div>
 
 ### SIEM & Security
@@ -68,7 +72,8 @@ Transitioning into cybersecurity with a focus on Security Operations. Building h
 
 | Project | Description |
 |---------|-------------|
-| [Homelab Server Build](https://github.com/hazzugot/HomelabRYZEN) | Custom 10-inch rack server with Proxmox VE, OpenMediaVault NAS, Jellyfin media server. Fully documented with hardware rationale and troubleshooting logs. |
+| [Homelab Server Build](https://github.com/hazzugot/HomelabRYZEN) | Custom 10-inch rack server with Proxmox VE, two-node cluster, virtualised OPNsense firewall, and Home Assistant. Fully documented with hardware rationale and troubleshooting logs. |
+| [OPNsense Firewall (Lab 00C)](https://github.com/hazzugot/HomelabRYZEN/tree/main/Labs/00C_OPNsense_Firewall) | Replaced ISP router with virtualised OPNsense firewall. PPPoE over VLAN 101, IoT VLAN isolation with dedicated WAP, DHCP/DNS, and Home Assistant integration with cross-VLAN firewall policy. |
 | [Network Segmentation (Lab 00B)](https://github.com/hazzugot/HomelabRYZEN/tree/main/Labs/00B_Network_Enhancement) | Enterprise VLAN segmentation using Netgear GS510TLP managed switch. 802.1Q trunking, VLAN-aware bridging in Proxmox, inter-VLAN routing with iptables NAT, and VM migration across network segments. |
 | [Splunk SIEM (Lab 01)](https://github.com/hazzugot/HomelabRYZEN/tree/main/Labs/01_Splunk_SIEM_Lab) | Enterprise SIEM deployment with Splunk, Sysmon endpoint telemetry, 4 custom detection rules mapped to MITRE ATT&CK, SOC dashboard, and full attack simulation with documented incident response. |
 
